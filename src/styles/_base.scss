@@ -12,4 +12,7 @@
 body {
     font-size: 1.6rem;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
 }

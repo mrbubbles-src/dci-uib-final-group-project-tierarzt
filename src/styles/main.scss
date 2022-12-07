@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap");
 @import "variables";
-@import "./base";
+@import "./_base";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // FONT FAMILIES:
@@ -15,3 +15,103 @@
 //
 
 // Write your sass code here or import partials
+
+// NAV
+nav {
+  font-size: $m;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: $lgblue;
+  height: 50px;
+
+  .container-fluid {
+    background-color: $lgblue;
+    text-align: center;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler-icon {
+    font: {
+      size: $m;
+    }
+  }
+  .dropdown-menu {
+    background-color: $lgblue;
+    text-align: center;
+    font-size: $m;
+  }
+}
+// HEADER
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+
+  i {
+    font-size: 3rem;
+    color: $white;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+
+    background-color: $lgblue;
+    margin: 10px 25px;
+  }
+  h1 {
+    margin-top: $xl;
+    color: $dblue;
+  }
+  h2 {
+    font-size: $m;
+    letter-spacing: 1px;
+    color: $dblue;
+  }
+  h3 {
+    font-size: $xs;
+    letter-spacing: 1px;
+    color: $dblue;
+  }
+  .times {
+    padding-top: 1rem;
+    h4 {
+      text-align: left;
+      font: {
+        size: $l;
+      }
+    }
+    table {
+      margin-top: 15px;
+      text-align: center;
+      font-size: $m;
+
+      td {
+        padding: 5px;
+      }
+    }
+  }
+}
+.carousel-item{
+  img{
+     object-fit: contain;
+  }
+}
+
+img {
+    width: 200px;
+}
+
+
+
+// FOOTER
+footer {
+  font-size: $m;
+  text-align: center;
+  background-color: $grey;
+  a {
+    padding: 5px;
+  }
+}

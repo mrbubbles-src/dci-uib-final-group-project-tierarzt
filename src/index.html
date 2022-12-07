@@ -1,22 +1,279 @@
 <html lang="de">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- FONTAWESOME START -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONTAWESOME END -->
+    <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
+    <title>Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="kopfzeile">
+        <img src="./images/logo.png" alt="" />
+        <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
+        <h2>
+          Kleintiere &middot; Heimtiere &middot; Reptilien &middot; Amphibien
+          &middot; Vögel
+        </h2>
+        <h3>
+          Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon: 040 / 721
+          4244
+        </h3>
+      </div>
+      <div class="times">
+        <h4>Unsere Sprechzeiten</h4>
+        <table>
+          <tr>
+            <th>Mo</th>
+            <th>Di</th>
+            <th>Mi</th>
+            <th>Do</th>
+            <th>Fr</th>
+          </tr>
+          <tr>
+            <td>10 - 12 Uhr</td>
+            <td>10 - 12 Uhr</td>
+            <td>10 - 12 Uhr</td>
+            <td>10 - 12 Uhr</td>
+            <td>10 - 12 Uhr</td>
+          </tr>
+          <tr>
+            <td>16 - 19 Uhr</td>
+            <td>16 - 19 Uhr</td>
+            <td>Geschlossen</td>
+            <td>16 - 19 Uhr</td>
+            <td>16 - 19 Uhr</td>
+          </tr>
+        </table>
+        <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:praxis@vet-gerlitzki.de"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </header>
+    <hr />
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Startseite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Leistungen</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Patienten
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Klein- und Heimtiere</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Reptilien</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Exotische Kleinsäuger</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Artikel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Galerie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Über die Praxis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Kontakt & Anfahrt</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Rhodos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Links
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Klein- und Heimtiere</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Reptilien</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Exotische Kleinsäuger</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CAROUSEL -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="./images/momo-bilder/ahmed-badawy-R4-DtoeKcHA-unsplash.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item ">
+          <img src="./images/momo-bilder/david-clode-iT5lKJadIwI-unsplash.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item ">
+          <img src="./images/momo-bilder/david-clode-uTj6-eZeHto-unsplash.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+    <!-- MAIN -->
+    <main>
+      <section class="welcome">
+        <h2>Herzlich willkommen in der Tierarztpraxis Gerlitzki in Hamburg</h2>
+        <p>
+          Wir begreifen unsere Arbeit als Dienst am Tier und damit an Patienten,
+          die nicht von vornherein verstehen, dass wir Ihnen helfen wollen. Aber
+          die meisten Tiere können fühlen, ob man es gut mit ihnen meint und
+          dieses Gefühl möchten wir Ihnen vermitteln - durch einen behutsamen
+          und liebevollen Umgang. So bieten wir zwar ein überdurchschnittliches
+          medizinisches Niveau, vermeiden aber alle unnötigen Untersuchungen
+          oder Eingriffe. Priorität hat das Tier und nicht unser Umsatz.
+          Ebenfalls legen wir großen Wert auf einen breiten therapeutischen
+          Ansatz. Dazu gehören für uns auch naturheilkundliche Verfahren. Und
+          auch Sie selbst sind nicht irgendein Kunde sondern als Besitzer und
+          Freund ihres Tieres unser Partner für seine Gesundheit. Daher nehmen
+          wir uns die Zeit, Ihnen Krankheitsbild, -ursachen und -verlauf sowie
+          alle nötigen Maßnahmen ausführlich und verständlich zu erläutern,
+          damit Sie die Situation ihres Tieres verstehen und zu seiner möglichst
+          schnellen Genesung beitragen können. Aus Liebe zum Tier Ihr Dr. Volker
+          Gerlitzki
+        </p>
+        <img
+          src="https://www.vet-gerlitzki.de/typolight-2.8.2/system/html/volkerg-2655ec17.jpeg"
+          alt=""
         />
-        <!-- FONTAWESOME END -->
-        <link rel="stylesheet" href="styles/main.scss" />
-        <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
-        <title>Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
-    </head>
-    <body>
-        <h1>Hello, World!</h1>
-    </body>
+      </section>
+      <section class="warning">
+        <p>Aktuelle Information wegen Corona:</p>
+        <p>
+          Aufgrund der aktuellen Lage müssen auch wir reagieren. Wir möchten Sie
+          bitten grundsätzlich einen Termin zur Behandlung ihres Tieres
+          auszumachen, um die erforderlichen Abstände im Wartezimmer auch
+          weiterhin einhalten zu können. Des weiteren bitten wir Sie nach
+          Möglichkeit allein zu kommen Vielen Dank für Ihre Mithilfe
+          Tierarztpraxis Doktor Gerlitzki
+        </p>
+      </section>
+      <section class="information">
+        <h2>Wissenswertes</h2>
+        <article>
+          <img
+            src="./images/momo-bilder/erik-jan-leusink---SDX4KWIbA-unsplash.jpg"
+            alt=""
+          />
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+            repudiandae sequi quis pariatur, iusto minus placeat labore quasi
+            dolorem nobis quae, ducimus natus? Modi illo dolorum, autem officiis
+            sint corrupti?
+          </p>
+        </article>
+        <article>
+          <img
+            src="./images/momo-bilder/erik-jan-leusink---SDX4KWIbA-unsplash.jpg"
+            alt=""
+          />
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+            repudiandae sequi quis pariatur, iusto minus placeat labore quasi
+            dolorem nobis quae, ducimus natus? Modi illo dolorum, autem officiis
+            sint corrupti?
+          </p>
+        </article>
+        <article>
+          <img
+            src="./images/momo-bilder/erik-jan-leusink---SDX4KWIbA-unsplash.jpg"
+            alt=""
+          />
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+            repudiandae sequi quis pariatur, iusto minus placeat labore quasi
+            dolorem nobis quae, ducimus natus? Modi illo dolorum, autem officiis
+            sint corrupti?
+          </p>
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <hr />
+    <footer>
+      <p>&copy; 2022 Dr. med. vet. Gerlitzki</p>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">Cookie-Einstellungen anpassen</a>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"
+  ></script>
 </html>
