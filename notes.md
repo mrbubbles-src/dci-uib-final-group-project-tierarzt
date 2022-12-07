@@ -39,3 +39,9 @@
 
     main = anschrift, öffnungszeiten, praxisbedingte hinweise
     secondary = copyright, impressum, datenschutz
+
+-   socials
+
+#### various:
+
+-   metatags für google crawler?
