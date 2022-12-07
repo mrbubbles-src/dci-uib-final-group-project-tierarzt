@@ -3,10 +3,11 @@
 // to customize it as you may want.
 
 @import "variables";
+@import "./base";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Write your sass code here or import partials
 
 h1 {
-  color: tomato;
+    color: tomato;
 }
