@@ -2,12 +2,16 @@
 // You need the base only when you are not using bootstrap. In that case, go to _base.scss
 // to customize it as you may want.
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap");
 @import "variables";
 @import "./base";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Write your sass code here or import partials
+// FONT FAMILIES:
 
-h1 {
-    color: tomato;
-}
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+//
+
+// Write your sass code here or import partials

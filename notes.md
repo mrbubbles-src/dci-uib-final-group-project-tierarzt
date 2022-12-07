@@ -12,6 +12,7 @@
 -   Über die Praxis
 -   Kontakt & Anfahrt
     -(Links ?)
+    -   Rhodos
 
 ### header
 
