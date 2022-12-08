@@ -196,13 +196,11 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     img {
                         width: 250px;
                         height: 250px;
                     }
                 }
-
                 .text1 {
                     grid-row: 1/2;
                     grid-column: 1/2;
@@ -240,16 +238,14 @@ main {
         justify-content: center;
         align-items: center;
         gap: 3rem;
-
         @media (min-width: 992px) {
             flex-flow: row;
         }
-
         .article_cards {
             padding: $xl;
             display: flex;
             flex-flow: column;
-            // justify-content: center;
+            // justify-content: center;  < macht alles kapuuuuuutt
             align-items: center;
             border: 1px solid $lgblue;
             border-radius: $m;
@@ -258,7 +254,6 @@ main {
                 width: 33.33%;
                 height: 550px;
             }
-
             .image-container {
                 width: 90%;
                 height: 60%;
@@ -277,7 +272,6 @@ main {
 img {
     width: 200px;
 }
-
 // FOOTER
 footer {
     font-size: $m;
@@ -287,7 +281,6 @@ footer {
     flex-flow: column;
     padding: 1rem;
     width: 100%;
-
     .footer_icons {
         display: flex;
         justify-content: center;
@@ -298,7 +291,6 @@ footer {
             color: $dblue;
         }
     }
-
     a {
         padding: 5px;
         text-decoration: none;
