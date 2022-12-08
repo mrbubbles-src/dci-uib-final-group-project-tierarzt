@@ -246,17 +246,23 @@ main {
         }
 
         .article_cards {
-            padding: 1rem;
+            padding: $xl;
             display: flex;
             flex-flow: column;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             border: 1px solid $lgblue;
             border-radius: $m;
             gap: 1rem;
+            @media (min-width: 992px) {
+                width: 33.33%;
+                height: 550px;
+            }
+
             .image-container {
-                height: 400px;
-                width: 400px;
+                width: 90%;
+                height: 60%;
+                border-radius: 15px;
                 img {
                     object-fit: cover;
                     width: 100%;
