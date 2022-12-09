@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import "variables";
+@import "./_base";
+@import "main";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+main {
+    padding: 3rem 1rem;
+    .welcome {
+        .text_container_top {
+            .text_container {
+                #mid_head {
+                    margin-bottom: 20px;
+                }
+                .info-image {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    img {
+                        border: 5px solid $lgblue;
+                        border-radius: 25px;
+                        width: 100%;
+                        @media (min-width: 992px) {
+                            object-fit: cover;
+                            width: 758px;
+                            height: 506px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
