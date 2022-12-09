@@ -3,3 +3,15 @@
 @import "./_base";
 @import "main";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+main {
+    display: flex;
+    font-size: $m;
+    padding: 3rem 1rem;
+    justify-content: center;
+
+    a {
+        color: $dblue;
+        text-decoration: none;
+    }
+}
