@@ -30,12 +30,21 @@ main {
                 width: 225px;
                 height: 200px;
             }
+
             img {
+                background-color: black;
                 border: 5px solid $lgblue;
                 border-radius: 2.5rem;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                transition: 0.8s ease-in-out;
+                @media (min-width: 992px) {
+                    &:hover {
+                        object-fit: contain;
+                        transform: scale(2);
+                    }
+                }
             }
         }
     }
