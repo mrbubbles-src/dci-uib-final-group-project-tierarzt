@@ -52,6 +52,7 @@ main {
                 transition: 1s ease-in-out;
                 @media (min-width: 992px) {
                     &:hover {
+                        cursor: pointer;
                         object-fit: contain;
                         transform: scale(2) translate(5px, 0);
                     }
