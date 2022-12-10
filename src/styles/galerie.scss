@@ -7,9 +7,7 @@
 main {
     padding: 3rem 1rem;
     width: 100%;
-    @media (min-width: 992px) {
-        // height: 100vh;
-    }
+
     .galerie-titel {
         color: $dblue;
         font: {
@@ -18,7 +16,15 @@ main {
         margin: {
             top: 2.5rem;
             bottom: 0;
-            left: 10rem;
+            left: auto;
+            right: auto;
+        }
+        @media (min-width: 992px) {
+            margin: {
+                top: 2.5rem;
+                bottom: 0;
+                left: 10rem;
+            }
         }
     }
     .galerie-container {
