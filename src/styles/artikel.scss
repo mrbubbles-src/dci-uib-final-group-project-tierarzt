@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import "variables";
+@import "./_base";
+@import "main";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+main {
+    display: flex;
+    font-size: $m;
+    padding: 3rem 1rem;
+    justify-content: center;
+
+    a {
+        color: $dblue;
+        text-decoration: none;
+    }
+}
