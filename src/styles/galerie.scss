@@ -10,13 +10,24 @@ main {
     @media (min-width: 992px) {
         // height: 100vh;
     }
-
+    .galerie-titel {
+        color: $dblue;
+        font: {
+            size: $xxl;
+        }
+        margin: {
+            top: 2.5rem;
+            bottom: 0;
+            left: 10rem;
+        }
+    }
     .galerie-container {
         // border: solid green;
         border: 1px solid $lgblue;
         border-radius: 2.5rem;
+        background-color: $white;
         padding: 1rem;
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
         display: flex;
         flex-flow: row wrap;
         display: flex;
@@ -32,7 +43,7 @@ main {
             }
 
             img {
-                background-color: black;
+                // background-color: black;
                 border: 5px solid $lgblue;
                 border-radius: 2.5rem;
                 width: 100%;
@@ -43,6 +54,8 @@ main {
                     &:hover {
                         object-fit: contain;
                         transform: scale(2);
+                        border: none;
+                        border-radius: none;
                     }
                 }
             }
