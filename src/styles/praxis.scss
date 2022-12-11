@@ -9,6 +9,13 @@ main {
     font-size: $m;
     padding: 3rem 1rem;
     justify-content: center;
+    a {
+        text-decoration: none;
+        color: $dblue;
+        font: {
+            weight: 700;
+        }
+    }
     .praxis-text {
         width: auto;
         display: flex;
@@ -25,7 +32,6 @@ main {
         box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
 
         @media (min-width: 992px) {
-
             .image-container {
                 width: 400px !important;
                 height: 400px !important;

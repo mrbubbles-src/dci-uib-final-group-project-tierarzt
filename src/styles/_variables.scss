@@ -15,7 +15,11 @@
 // );
 
 // $spacer: 1rem;
-
+@mixin transform-scale($amount) {
+    -webkit-transform: scale($amount);
+    -ms-transform: scale($amount);
+    transform: scale($amount);
+}
 // COLORS:
 $grey: #f0f0f0;
 $lgblue: #8cb8d1;

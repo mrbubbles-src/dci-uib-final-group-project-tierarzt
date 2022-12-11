@@ -11,7 +11,26 @@ main {
     justify-content: center;
 
     a {
-        color: $dblue;
         text-decoration: none;
+        color: $dblue;
+        font: {
+            weight: 700;
+        }
+    }
+
+    .article_cards {
+        // box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+        .image-container {
+            overflow: hidden;
+            img {
+                height: 300px;
+                object-fit: cover;
+                transition: 0.5s;
+                &:hover {
+                    @include transform-scale(1.1);
+                    opacity: 0.9;
+                }
+            }
+        }
     }
 }
