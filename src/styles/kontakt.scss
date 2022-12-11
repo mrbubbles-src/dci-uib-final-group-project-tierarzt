@@ -12,6 +12,8 @@ main {
   height: auto;
   .article_cards {
     width: 100%;
+    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+
     .contact_data {
       width: 100%;
     }
