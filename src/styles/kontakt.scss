@@ -5,13 +5,51 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 main {
-    display: flex;
-    font-size: $m;
-    padding: 3rem 1rem;
-    justify-content: center;
+  display: flex;
+  font-size: $m;
+  padding: 3rem 1rem;
+  justify-content: center;
 
-    a {
-        color: $dblue;
-        text-decoration: none;
+  a {
+    color: $dblue;
+    text-decoration: none;
+  }
+
+  h3 {
+    font-size: $l;
+    color: $dblue;
+    text-align: center;
+  }
+  .contact_data p{
+    margin: 2px;
+
+  }
+  .weg_beschreibung li {
+    list-style-type: disc;
+  }
+  .attention p{
+    font-size: $l;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 992px) {
+    padding: 5rem;
+    max-width: 100%;
+    width: 100%;
+
+    .welcome {
+      display: block;
     }
+    .information {
+      flex-flow: row;
+      iframe {
+        width: 80%;
+      }
+      .article_cards {
+        height: 330px;
+      }
+    }
+  }
 }
