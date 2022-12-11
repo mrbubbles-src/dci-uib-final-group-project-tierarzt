@@ -38,6 +38,8 @@ main {
         flex-flow: row wrap;
         display: flex;
         justify-content: center;
+        box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+
 
         .galerie-item {
             width: 400px;

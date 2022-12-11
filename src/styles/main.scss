@@ -256,7 +256,7 @@ main {
       padding: $xl;
       display: flex;
       flex-flow: column;
-      // justify-content: center;  < macht alles kapuuuuuutt
+      box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
       align-items: center;
       border: 1px solid $lgblue;
       border-radius: $m;
