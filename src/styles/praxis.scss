@@ -9,6 +9,9 @@ main {
     font-size: $m;
     padding: 3rem 1rem;
     justify-content: center;
+    .text_container_top {
+        width: 100%;
+    }
     .article_cards {
         @media (min-width: 992px) {
             .image-container {
