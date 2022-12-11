@@ -22,7 +22,10 @@ main {
         width: 100%;
     }
     .article_cards {
+        box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+
         @media (min-width: 992px) {
+
             .image-container {
                 width: 400px !important;
                 height: 400px !important;
