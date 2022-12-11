@@ -5,41 +5,44 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 main {
-  height: 100vh;
-  font-size: $m;
-  padding: 3rem 1rem;
-  justify-content: center;
-  article {
-    h2 {
-      text-decoration: underline;
-      font-size: $xxl;
-      color: $dblue;
-      text-align: center;
-    }
-    ul {
-      li {
-        list-style-type: disc;
-        a {
-          text-decoration: none;
-          color: $dblue;
-        }
-      }
-    }
-  }
-  @media (min-width: 992px) {
-    justify-content: flex-start;
+    height: 100vh;
+    font-size: $m;
+    padding: 3rem 1rem;
+    justify-content: center;
     article {
-      h2 {
-        margin-bottom: 3rem;
-      }
-      p {
-        margin-bottom: 3rem;
-      }
-      ul {
-        li {
-          line-height: 4rem;
+        h2 {
+            text-decoration: underline;
+            font-size: $xxl;
+            color: $dblue;
+            text-align: center;
         }
-      }
+        ul {
+            li {
+                list-style-type: disc;
+                a {
+                    text-decoration: none;
+                    color: $dblue;
+                    font: {
+                        weight: 700;
+                    }
+                }
+            }
+        }
     }
-  }
+    @media (min-width: 992px) {
+        justify-content: flex-start;
+        article {
+            h2 {
+                margin-bottom: 3rem;
+            }
+            p {
+                margin-bottom: 3rem;
+            }
+            ul {
+                li {
+                    line-height: 4rem;
+                }
+            }
+        }
+    }
 }

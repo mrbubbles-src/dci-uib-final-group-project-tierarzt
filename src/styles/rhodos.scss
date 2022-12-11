@@ -4,35 +4,32 @@
 @import "main";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-@mixin transform-scale($amount) {
-  -webkit-transform: scale($amount);
-  -ms-transform: scale($amount);
-  transform: scale($amount);
-}
-
 main {
-  display: flex;
-  font-size: $m;
-  padding: 3rem 1rem;
-  justify-content: center;
+    display: flex;
+    font-size: $m;
+    padding: 3rem 1rem;
+    justify-content: center;
 
-  a {
-    color: $dblue;
-    text-decoration: none;
-  }
-  .article_cards {
-    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
-    .image-container {
-      overflow: hidden;
-      img {
-        height: 300px;
-        object-fit: cover;
-        transition: 0.5s;
-        &:hover {
-          @include transform-scale(1.1);
-          opacity: 0.9;
+    a {
+        color: $dblue;
+        text-decoration: none;
+        font: {
+            weight: 700;
         }
-      }
     }
-  }
+    .article_cards {
+        box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+        .image-container {
+            overflow: hidden;
+            img {
+                height: 300px;
+                object-fit: cover;
+                transition: 0.5s;
+                &:hover {
+                    @include transform-scale(1.1);
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
 }
