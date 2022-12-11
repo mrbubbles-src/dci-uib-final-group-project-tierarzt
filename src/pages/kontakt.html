@@ -149,7 +149,7 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <section class="information">
-        <article class="article_cards part1">
+        <article class="article_cards">
           <h3>Unsere Daten</h3>
           <div class="contact_data">
             <p>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</p>
@@ -190,7 +190,6 @@
           </ul>
         </article>
         <article class="article_cards">
-          <h3>Kontaktieren Sie Uns</h3>
           <span class="attention"><p>Achtung:</p></span>
           <p>
             Bitte haben Sie Verständnis, dass wir telefonisch oder per E-Mail
@@ -205,7 +204,24 @@
             <a href="mailto:praxis@vet-gerlitzki.de">praxis@vet-gerlitzki.de</a>
           </p>
         </article>
+        <article class="article_cards big">
+          <form
+            action="https://formspree.io/xoqkgnqo"
+            method="post"
+            id="login_form"
+          >
+            <legend><h3>Kontaktieren Sie Uns</h3></legend>
+            <fieldset class="inputs_container">
+              <input id="firstname" type="text" placeholder="Name" required/>
+              <input id="email" type="email" placeholder="Email" required/>
+              <label for="password"></label>
+              <textarea name="message" id="message" cols="33" rows="5"></textarea>
+            </fieldset>
+            <button>Senden</button>
+          </form>
+        </article>
       </section>
+
     </main>
     <!-- FOOTER -->
     <footer>
