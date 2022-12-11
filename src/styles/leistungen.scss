@@ -11,7 +11,6 @@ main {
   }
   margin-top: 3rem;
   display: flex;
-  //   width: 1000px;
 
   section {
     display: flex;
@@ -19,9 +18,12 @@ main {
     align-items: center;
     gap: 1rem;
 
+    ul {
+      padding: 0;
+    }
     p {
       text-align: justify;
-      margin-left: 22px;
+
     }
     div {
       align-items: center;
@@ -38,11 +40,18 @@ main {
       grid-template-areas:
         'header header'
         'mid1 mid2';
+
+      column-gap: 5rem;
+
+
       #mid_head {
         grid-area: header;
       }
       .part1 {
         grid-area: mid1;
+
+        text-align: right;
+
       }
       .part2 {
         grid-area: mid2;
