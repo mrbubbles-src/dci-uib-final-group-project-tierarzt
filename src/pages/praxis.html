@@ -15,6 +15,14 @@
         <link rel="stylesheet" href="../styles/praxis.scss" />
         <script src="../js/main.js" type="module" defer></script>
         <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+            <!-- TITLE SCRIPT -->
+            <script>(function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            }(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki "));</script>
         <title>
             Über die Praxis | Tierarzt Praxis Hamburg Bergedorf Gerlitzki
         </title>
@@ -23,10 +31,7 @@
         <!-- HEADER -->
         <header>
             <div class="logo_container">
-                <img
-                    src="../images/logo_noname_alt.png"
-                    alt="dr. Gerlitzki logo"
-                />
+                <a href="../index.html"><img src="../images/logo_noname_alt.png" alt="dr. Gerlitzki logo" /></a>
             </div>
             <div class="kopfzeile">
                 <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
@@ -160,18 +165,6 @@
             </div>
         </nav>
         <main>
-            <section class="welcome">
-                <div class="text_container_top">
-                    <div class="text_container">
-                        <h2 id="mid_head">Über die Praxis</h2>
-                        <!-- <p>
-                            Unser Team besteht aus 2 Tierärzten und 2
-                            Tierarzthelferinnen.
-                        </p> -->
-                    </div>
-                </div>
-            </section>
-
             <section class="information">
                 <article class="article_cards">
                     <div class="image-container">
@@ -239,7 +232,7 @@
 
             <section class="welcome">
                 <div class="text_container_top">
-                    <div class="text_container">
+                    <div class="text_container praxis-text">
                         <h2 id="mid_head">Unsere Räumlichkeiten</h2>
                         <p>
                             Hier sehen Sie einen kleinen Vorgeschmack auf unsere

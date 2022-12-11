@@ -5,19 +5,23 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 main {
+
   width: 98%;
   margin-top: 3rem;
   display: flex;
+
   font: {
     weight: 600;
     size: $m;
   }
+
   #mid_head {
     text-align: center;
     font-size: 3.3rem;
     color: $dblue;
     text-decoration: underline;
   }
+
   h2 {
     color: $dblue;
     font-size: $xl;
@@ -30,15 +34,14 @@ main {
 }
 @media (min-width: 992px) {
   main {
+
     #mid_head {
       font-size: $xxl;
     }
-  }
-  div {
-    margin-bottom: $xl;
   }
 
   p {
     line-height: $l;
   }
+
 }

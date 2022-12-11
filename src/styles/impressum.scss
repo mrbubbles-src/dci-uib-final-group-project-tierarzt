@@ -5,13 +5,25 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 main {
+    font: {
+        weight: 600;
+        size: $m;
+    }
+    margin-top: 3rem;
     display: flex;
-    font-size: $m;
-    padding: 3rem 1rem;
-    justify-content: center;
 
-    a {
+    h2 {
         color: $dblue;
-        text-decoration: none;
+        font-size: $xl;
+        padding: 1rem 0;
+    }
+    p {
+        padding-left: 1rem;
+        text-align: justify;
+    }
+}
+@media (min-width: 992px) {
+    p {
+        line-height: $l;
     }
 }
