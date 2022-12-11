@@ -1,27 +1,39 @@
 <html lang="de">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- FONTAWESOME START -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <!-- FONTAWESOME END -->
-        <link rel="stylesheet" href="../styles/datenschutz.scss" />
-        <script src="../js/main.js" type="module" defer></script>
-        <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
-        <title>Zahnmedizin | Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONTAWESOME END -->
+    <link rel="stylesheet" href="../styles/datenschutz.scss" />
+    <script src="../js/main.js" type="module" defer></script>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+    <!-- TITLE SCRIPT -->
+    <script>
+      (function titleScroller(text) {
+        document.title = text;
+        console.log(text);
+        setTimeout(function () {
+          titleScroller(text.substr(1) + text.substr(0, 1));
+        }, 500);
+      })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
+    </script>
+    <title>Zahnmedizin | Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
+  </head>
+  <body>
     <!-- HEADER -->
     <header>
       <div class="logo_container">
-        <img src="../images/logo_noname_alt.png" alt="dr. Gerlitzki logo" />
+        <a href="../index.html"
+          ><img src="../images/logo_noname_alt.png" alt="dr. Gerlitzki logo"
+        /></a>
       </div>
       <div class="kopfzeile">
         <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
@@ -131,9 +143,7 @@
     <!-- MAIN -->
     <main>
       <div>
-        <h2 id="mid_head">
-          Datenschutzerklärung
-        </h2>
+        <h2 id="mid_head">Datenschutzerklärung</h2>
       </div>
       <h2>Grundlegendes</h2>
       <p>
