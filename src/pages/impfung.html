@@ -1,227 +1,264 @@
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- FONTAWESOME START -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- FONTAWESOME END -->
-    <link rel="stylesheet" href="../styles/wissenswertes.scss" />
-    <script src="../js/main.js" type="module" defer></script>
-    <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONTAWESOME START -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- FONTAWESOME END -->
+        <link rel="stylesheet" href="../styles/wissenswertes.css" />
+        <script src="../js/main.js" type="module" defer></script>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
 
-    <!-- TITLE SCRIPT -->
-    <script>
-      (function titleScroller(text) {
-        document.title = text;
-        console.log(text);
-        setTimeout(function () {
-          titleScroller(text.substr(1) + text.substr(0, 1));
-        }, 500);
-      })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
-    </script>
+        <!-- TITLE SCRIPT -->
+        <script>
+            (function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
+        </script>
 
-    <title>Impfungen | Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <div class="logo_container">
-
-        <a href="../index.html"
-          ><img src="../images/logo_noname_alt.png" alt="dr. Gerlitzki logo"
-        /></a>
-
-      </div>
-      <div class="kopfzeile">
-        <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
-        <h2>
-          Kleintiere &middot; Heimtiere &middot; Reptilien &middot; Amphibien
-          &middot; Vögel
-        </h2>
-        <h3>
-          Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon: 040 / 721
-          4244
-        </h3>
-      </div>
-      <div class="times">
-        <div class="gradient"></div>
-        <h4>Unsere Sprechzeiten</h4>
-        <table>
-          <tr>
-            <th>Mo</th>
-            <th>Di</th>
-            <th>Mi</th>
-            <th>Do</th>
-            <th>Fr</th>
-          </tr>
-          <tr>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-          </tr>
-          <tr>
-            <td>16 - 19 Uhr</td>
-            <td>16 - 19 Uhr</td>
-            <td>Geschlossen</td>
-            <td>16 - 19 Uhr</td>
-            <td>16 - 19 Uhr</td>
-          </tr>
-        </table>
-        <div class="gradient"></div>
-      </div>
-    </header>
-    <div class="contact_buttons">
-      <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
-      <a href="mailto:praxis@vet-gerlitzki.de"
-        ><i class="fa-solid fa-envelope"></i
-      ></a>
-    </div>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html"
-                >Startseite</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="leistungen.html">Leistungen</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="artikel.html"
-                >Artikel</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="galerie.html"
-                >Galerie</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="praxis.html"
-                >Über die Praxis</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="kontakt.html"
-                >Kontakt & Anfahrt</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="rhodos.html"
-                >Rhodos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="links.html"
-                >Links</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main>
-      <section class="welcome">
-        <div class="text_container_top">
-          <div class="text_container">
-            <div class="info-image">
-              <img src="../images/Hase-Small.jpg" alt="hase auf dickem ast" />
+        <title>Impfungen | Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="logo_container">
+                <a href="../index.html"
+                    ><img
+                        src="../images/logo_noname_alt.png"
+                        alt="dr. Gerlitzki logo"
+                /></a>
             </div>
-            <h2 id="mid_head">
-              Wichtige Impfung für Kaninchen gegen Myxomatose, RHD und RHD2
-              /Chinaseuche (Rabbit Haemorrhagic Disease)
-            </h2>
-            <p>
-              Durch regelmäßge Impfungen, können Sie ihr Tier vor diesen
-              gefährlichen Viruserkrankungen mit hoher Ausbreitungs- und
-              Sterberate (80-100%) schützen.
-            </p>
-            <p>
-              Das zur Familie der Pockenviren gehörende
-              <strong>Myxomatosevirus</strong> kann z.B. durch Fliegen, Mücken,
-              Kaninchenfloh, Milben, Zecken und Läuse, aber auch durch Futter ,
-              insbesondere gesammeltes Grünfutter, von Kaninchen zu Kaninchen
-              oder von Mensch zu Kaninchen übertragen werden.
-            </p>
-
-            <h4>Mögliche Krankheitszeichen/ Infektionsanzeichen:</h4>
-            <p>
-              Schwellungen an den Augen, Augenausfluss, Ödeme, andere
-              Infektionen. Später weitere Anschwellungen im Kopfbereich, Fieber
-              und Ödembildung am ganzen Körper.
-            </p>
-            <p>
-              Deshalb sollten grundsätzlich alle Tiere 2 x im Jahr geimpft
-              werden. Im Idealfall impft man März/April. Der Impfschutz hält 6–9
-              Monate.
-            </p>
-            <p>
-              So wie das Myxomatosevirus, wird auch das
-              <strong>RHD Virus (Calicivirus)</strong> übertragen. Die
-              inkubatioszeit beläuft sich bei 24-72 Stunden. Hauptüberträger
-              sind Kaninchenflöhe, aber auch eine Tröpcheninfektion ist möglich.
-            </p>
-            <h4>Mögliches Krankheitsbild:</h4>
-            <p>
-              Akute Verlaufsform: Unruhe, Benommenheit, Atemnot, Flankenatmung,
-              Fieber, Fressunlust und blutigem Durchfall. Quallvolles Ersticken
-              ist meist die Folge.
-            </p>
-            <p>
-              Perakute Verlaufsform: keine Krankheitsanzeichen, plötzliches
-              Zusammenbrechen,heftige Atemnotkrämpfe und ersticken, meist mit
-              weit zurückgebogenem Kopf und Blutaustritt aus den Nasenlöchern.
-              Auch von Schreien und anderen Lauten wird berichtet.
-            </p>
-            <p>
-              Die jährliche Impfung kann in Kombination mit Myxomatose oder
-              erfolgen und sollte idealerweise vor der warmen Jahreszeit
-              geschehen. Die Immunisierung hält 9 -12 Monate vor. Eine
-              Grundimmunisierung emphiehlt sich bei Jungtieren (Erstimpfung bei
-              Jungtieren ca. ab der 4. bis 6. Lebenswoche) und Tieren, die zum
-              ersten Mal geimpft werden.
-            </p>
-          </div>
+            <div class="kopfzeile">
+                <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
+                <h2>
+                    Kleintiere &middot; Heimtiere &middot; Reptilien &middot;
+                    Amphibien &middot; Vögel
+                </h2>
+                <h3>
+                    Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon:
+                    040 / 721 4244
+                </h3>
+            </div>
+            <div class="times">
+                <div class="gradient"></div>
+                <h4>Unsere Sprechzeiten</h4>
+                <table>
+                    <tr>
+                        <th>Mo</th>
+                        <th>Di</th>
+                        <th>Mi</th>
+                        <th>Do</th>
+                        <th>Fr</th>
+                    </tr>
+                    <tr>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>Geschlossen</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                    </tr>
+                </table>
+                <div class="gradient"></div>
+            </div>
+        </header>
+        <div class="contact_buttons">
+            <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:praxis@vet-gerlitzki.de"
+                ><i class="fa-solid fa-envelope"></i
+            ></a>
         </div>
-      </section>
-    </main>
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer_icons">
-        <i class="fa-brands fa-square-twitter"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-      </div>
-      <p class="footer_copy">&copy; 2022 Dr. med. vet. Gerlitzki</p>
-      <div class="footer_links">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="#">Cookie-Einstellungen anpassen</a>
-      </div>
-    </footer>
-  </body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="../index.html"
+                                >Startseite</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="leistungen.html"
+                                >Leistungen</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="artikel.html"
+                                >Artikel</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="galerie.html"
+                                >Galerie</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="praxis.html"
+                                >Über die Praxis</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="kontakt.html"
+                                >Kontakt & Anfahrt</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="rhodos.html"
+                                >Rhodos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="links.html"
+                                >Links</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="welcome">
+                <div class="text_container_top">
+                    <div class="text_container">
+                        <div class="info-image">
+                            <img
+                                src="../images/Hase-Small.jpg"
+                                alt="hase auf dickem ast"
+                            />
+                        </div>
+                        <h2 id="mid_head">
+                            Wichtige Impfung für Kaninchen gegen Myxomatose, RHD
+                            und RHD2 /Chinaseuche (Rabbit Haemorrhagic Disease)
+                        </h2>
+                        <p>
+                            Durch regelmäßge Impfungen, können Sie ihr Tier vor
+                            diesen gefährlichen Viruserkrankungen mit hoher
+                            Ausbreitungs- und Sterberate (80-100%) schützen.
+                        </p>
+                        <p>
+                            Das zur Familie der Pockenviren gehörende
+                            <strong>Myxomatosevirus</strong> kann z.B. durch
+                            Fliegen, Mücken, Kaninchenfloh, Milben, Zecken und
+                            Läuse, aber auch durch Futter , insbesondere
+                            gesammeltes Grünfutter, von Kaninchen zu Kaninchen
+                            oder von Mensch zu Kaninchen übertragen werden.
+                        </p>
+
+                        <h4>
+                            Mögliche Krankheitszeichen/ Infektionsanzeichen:
+                        </h4>
+                        <p>
+                            Schwellungen an den Augen, Augenausfluss, Ödeme,
+                            andere Infektionen. Später weitere Anschwellungen im
+                            Kopfbereich, Fieber und Ödembildung am ganzen
+                            Körper.
+                        </p>
+                        <p>
+                            Deshalb sollten grundsätzlich alle Tiere 2 x im Jahr
+                            geimpft werden. Im Idealfall impft man März/April.
+                            Der Impfschutz hält 6–9 Monate.
+                        </p>
+                        <p>
+                            So wie das Myxomatosevirus, wird auch das
+                            <strong>RHD Virus (Calicivirus)</strong> übertragen.
+                            Die inkubatioszeit beläuft sich bei 24-72 Stunden.
+                            Hauptüberträger sind Kaninchenflöhe, aber auch eine
+                            Tröpcheninfektion ist möglich.
+                        </p>
+                        <h4>Mögliches Krankheitsbild:</h4>
+                        <p>
+                            Akute Verlaufsform: Unruhe, Benommenheit, Atemnot,
+                            Flankenatmung, Fieber, Fressunlust und blutigem
+                            Durchfall. Quallvolles Ersticken ist meist die
+                            Folge.
+                        </p>
+                        <p>
+                            Perakute Verlaufsform: keine Krankheitsanzeichen,
+                            plötzliches Zusammenbrechen,heftige Atemnotkrämpfe
+                            und ersticken, meist mit weit zurückgebogenem Kopf
+                            und Blutaustritt aus den Nasenlöchern. Auch von
+                            Schreien und anderen Lauten wird berichtet.
+                        </p>
+                        <p>
+                            Die jährliche Impfung kann in Kombination mit
+                            Myxomatose oder erfolgen und sollte idealerweise vor
+                            der warmen Jahreszeit geschehen. Die Immunisierung
+                            hält 9 -12 Monate vor. Eine Grundimmunisierung
+                            emphiehlt sich bei Jungtieren (Erstimpfung bei
+                            Jungtieren ca. ab der 4. bis 6. Lebenswoche) und
+                            Tieren, die zum ersten Mal geimpft werden.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_icons">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <p class="footer_copy">&copy; 2022 Dr. med. vet. Gerlitzki</p>
+            <div class="footer_links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="#">Cookie-Einstellungen anpassen</a>
+            </div>
+        </footer>
+    </body>
 </html>

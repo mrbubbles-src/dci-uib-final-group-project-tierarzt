@@ -1,249 +1,302 @@
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- FONTAWESOME START -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- FONTAWESOME END -->
-    <link rel="stylesheet" href="../styles/kontakt.scss" />
-    <script src="../js/main.js" type="module" defer></script>
-    <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
-            <!-- TITLE SCRIPT -->
-            <script>(function titleScroller(text) {
-              document.title = text;
-              console.log(text);
-              setTimeout(function () {
-                  titleScroller(text.substr(1) + text.substr(0, 1));
-              }, 500);
-          }(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki "));</script>
-    <title>
-      Kontakt & Anfahrt | Tierarzt Praxis Hamburg Bergedorf Gerlitzki
-    </title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <div class="logo_container">
-        <a href="../index.html"><img src="../images/logo_noname_alt.png" alt="dr. Gerlitzki logo" /></a>
-      </div>
-      <div class="kopfzeile">
-        <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
-        <h2>
-          Kleintiere &middot; Heimtiere &middot; Reptilien &middot; Amphibien
-          &middot; Vögel
-        </h2>
-        <h3>
-          Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon: 040 / 721
-          4244
-        </h3>
-      </div>
-      <div class="times">
-        <div class="gradient"></div>
-        <h4>Unsere Sprechzeiten</h4>
-        <table>
-          <tr>
-            <th>Mo</th>
-            <th>Di</th>
-            <th>Mi</th>
-            <th>Do</th>
-            <th>Fr</th>
-          </tr>
-          <tr>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-            <td>10 - 12 Uhr</td>
-          </tr>
-          <tr>
-            <td>16 - 19 Uhr</td>
-            <td>16 - 19 Uhr</td>
-            <td>Geschlossen</td>
-            <td>16 - 19 Uhr</td>
-            <td>16 - 19 Uhr</td>
-          </tr>
-        </table>
-        <div class="gradient"></div>
-      </div>
-    </header>
-    <div class="contact_buttons">
-      <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
-      <a href="mailto:praxis@vet-gerlitzki.de"
-        ><i class="fa-solid fa-envelope"></i
-      ></a>
-    </div>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html"
-                >Startseite</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="leistungen.html">Leistungen</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="artikel.html"
-                >Artikel</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="galerie.html"
-                >Galerie</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="praxis.html"
-                >Über die Praxis</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="kontakt.html"
-                >Kontakt & Anfahrt</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="rhodos.html"
-                >Rhodos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="links.html"
-                >Links</a
-              >
-            </li>
-          </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONTAWESOME START -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- FONTAWESOME END -->
+        <link rel="stylesheet" href="../styles/kontakt.css" />
+        <script src="../js/main.js" type="module" defer></script>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+        <!-- TITLE SCRIPT -->
+        <script>
+            (function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
+        </script>
+        <title>
+            Kontakt & Anfahrt | Tierarzt Praxis Hamburg Bergedorf Gerlitzki
+        </title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="logo_container">
+                <a href="../index.html"
+                    ><img
+                        src="../images/logo_noname_alt.png"
+                        alt="dr. Gerlitzki logo"
+                /></a>
+            </div>
+            <div class="kopfzeile">
+                <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
+                <h2>
+                    Kleintiere &middot; Heimtiere &middot; Reptilien &middot;
+                    Amphibien &middot; Vögel
+                </h2>
+                <h3>
+                    Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon:
+                    040 / 721 4244
+                </h3>
+            </div>
+            <div class="times">
+                <div class="gradient"></div>
+                <h4>Unsere Sprechzeiten</h4>
+                <table>
+                    <tr>
+                        <th>Mo</th>
+                        <th>Di</th>
+                        <th>Mi</th>
+                        <th>Do</th>
+                        <th>Fr</th>
+                    </tr>
+                    <tr>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>Geschlossen</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                    </tr>
+                </table>
+                <div class="gradient"></div>
+            </div>
+        </header>
+        <div class="contact_buttons">
+            <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:praxis@vet-gerlitzki.de"
+                ><i class="fa-solid fa-envelope"></i
+            ></a>
         </div>
-      </div>
-    </nav>
-    <main>
-      <section class="welcome">
-        <div class="text_container_top">
-          <div class="text_container">
-            <h2 id="mid_head">Kontakt & Anfahrt</h2>
-          </div>
-        </div>
-      </section>
-      <br />
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.943194624455!2d10.216336716188719!3d53.48734478000878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1f2627d000499%3A0x74b29aef89ee5ba6!2sWentorfer%20Str.%2015%2C%2021029%20Hamburg!5e0!3m2!1sde!2sde!4v1670754795816!5m2!1sde!2sde"
-        width="100%"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-      <section class="information">
-        <article class="article_cards">
-          <h3>Unsere Daten</h3>
-          <div class="contact_data">
-            <p>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</p>
-            <p>Wentorfer Straße 15</p>
-            <p>21029 Hamburg</p>
-            <p>Telefon: <a href="tel:0407214244">040 / 721 4244</a></p>
-            <p>
-              <a href="mailto:praxis@vet-gerlitzki.de"
-                >praxis@vet-gerlitzki.de</a
-              >
-            </p>
-          </div>
-        </article>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="../index.html"
+                                >Startseite</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="leistungen.html"
+                                >Leistungen</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="artikel.html"
+                                >Artikel</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="galerie.html"
+                                >Galerie</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="praxis.html"
+                                >Über die Praxis</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="kontakt.html"
+                                >Kontakt & Anfahrt</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="rhodos.html"
+                                >Rhodos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="links.html"
+                                >Links</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="welcome">
+                <div class="text_container_top">
+                    <div class="text_container">
+                        <h2 id="mid_head">Kontakt & Anfahrt</h2>
+                    </div>
+                </div>
+            </section>
+            <br />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.943194624455!2d10.216336716188719!3d53.48734478000878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1f2627d000499%3A0x74b29aef89ee5ba6!2sWentorfer%20Str.%2015%2C%2021029%20Hamburg!5e0!3m2!1sde!2sde!4v1670754795816!5m2!1sde!2sde"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <section class="information">
+                <article class="article_cards">
+                    <h3>Unsere Daten</h3>
+                    <div class="contact_data">
+                        <p>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</p>
+                        <p>Wentorfer Straße 15</p>
+                        <p>21029 Hamburg</p>
+                        <p>
+                            Telefon: <a href="tel:0407214244">040 / 721 4244</a>
+                        </p>
+                        <p>
+                            <a href="mailto:praxis@vet-gerlitzki.de"
+                                >praxis@vet-gerlitzki.de</a
+                            >
+                        </p>
+                    </div>
+                </article>
 
-        <article class="article_cards">
-          <h3>Mit dem Auto</h3>
-          <p>Gegenüber der Praxis befinden sich Parkplätze.</p>
-          <h3>Behindertengerechter Zugang</h3>
-          <p>
-            Der Zugang für Rollstuhlfahrer befindet sich Wentorfer Strasse 15a.
-          </p>
-          <p>
-            Dieser ist durch den kleinen Weg rechts neben dem Haus zu erreichen.
-          </p>
-        </article>
-        <article class="article_cards">
-          <h3>Öffentliche Verkehrsmittel</h3>
-          <p>
-            Nuten Sie den öffentlichen Nahverkehr (<a
-              href="https://www.hvv.de/de/SteigEinBeimKlimaschutz"
-              >www.hvv.de</a
-            >)
-          </p>
-          <ul class="weg_beschreibung">
-            <li>S-Bahn Linie S2 oder S21 bis Hamburg-Bergedorf.</li>
-            <li>Buslinie 235 bis Rathaus Bergedorf.</li>
-            <li>Von hier aus ca. 2 Minuten zu Fuß.</li>
-          </ul>
-        </article>
-        <article class="article_cards">
-          <span class="attention"><p>Achtung:</p></span>
-          <p>
-            Bitte haben Sie Verständnis, dass wir telefonisch oder per E-Mail
-            keine Diagnosen stellen können.
-          </p>
-          <p>
-            Im Krankheitsfall vereinbaren Sie bitte einen Termin unter
-            <a href="tel:0407214244">040 / 721 4244</a>.
-          </p>
-          <p>
-            Sie erreichen uns per E-Mail unter
-            <a href="mailto:praxis@vet-gerlitzki.de">praxis@vet-gerlitzki.de</a>
-          </p>
-        </article>
-        <article class="article_cards big">
-          <form
-            action="https://formspree.io/xoqkgnqo"
-            method="post"
-            id="login_form"
-          >
-            <legend><h3>Kontaktieren Sie Uns</h3></legend>
-            <fieldset class="inputs_container">
-              <input id="firstname" type="text" placeholder="Name" required/>
-              <input id="email" type="email" placeholder="Email" required/>
-              <label for="password"></label>
-              <textarea name="message" id="message" cols="33" rows="5"></textarea>
-            </fieldset>
-            <button>Senden</button>
-          </form>
-        </article>
-      </section>
-
-    </main>
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer_icons">
-        <i class="fa-brands fa-square-twitter"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-      </div>
-      <p class="footer_copy">&copy; 2022 Dr. med. vet. Gerlitzki</p>
-      <div class="footer_links">
-        <a href="impressum.html">Impressum</a>
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="#">Cookie-Einstellungen anpassen</a>
-      </div>
-    </footer>
-  </body>
+                <article class="article_cards">
+                    <h3>Mit dem Auto</h3>
+                    <p>Gegenüber der Praxis befinden sich Parkplätze.</p>
+                    <h3>Behindertengerechter Zugang</h3>
+                    <p>
+                        Der Zugang für Rollstuhlfahrer befindet sich Wentorfer
+                        Strasse 15a.
+                    </p>
+                    <p>
+                        Dieser ist durch den kleinen Weg rechts neben dem Haus
+                        zu erreichen.
+                    </p>
+                </article>
+                <article class="article_cards">
+                    <h3>Öffentliche Verkehrsmittel</h3>
+                    <p>
+                        Nuten Sie den öffentlichen Nahverkehr (<a
+                            href="https://www.hvv.de/de/SteigEinBeimKlimaschutz"
+                            >www.hvv.de</a
+                        >)
+                    </p>
+                    <ul class="weg_beschreibung">
+                        <li>S-Bahn Linie S2 oder S21 bis Hamburg-Bergedorf.</li>
+                        <li>Buslinie 235 bis Rathaus Bergedorf.</li>
+                        <li>Von hier aus ca. 2 Minuten zu Fuß.</li>
+                    </ul>
+                </article>
+                <article class="article_cards">
+                    <span class="attention"><p>Achtung:</p></span>
+                    <p>
+                        Bitte haben Sie Verständnis, dass wir telefonisch oder
+                        per E-Mail keine Diagnosen stellen können.
+                    </p>
+                    <p>
+                        Im Krankheitsfall vereinbaren Sie bitte einen Termin
+                        unter
+                        <a href="tel:0407214244">040 / 721 4244</a>.
+                    </p>
+                    <p>
+                        Sie erreichen uns per E-Mail unter
+                        <a href="mailto:praxis@vet-gerlitzki.de"
+                            >praxis@vet-gerlitzki.de</a
+                        >
+                    </p>
+                </article>
+                <article class="article_cards big">
+                    <form
+                        action="https://formspree.io/xoqkgnqo"
+                        method="post"
+                        id="login_form"
+                    >
+                        <legend><h3>Kontaktieren Sie Uns</h3></legend>
+                        <fieldset class="inputs_container">
+                            <input
+                                id="firstname"
+                                type="text"
+                                placeholder="Name"
+                                required
+                            />
+                            <input
+                                id="email"
+                                type="email"
+                                placeholder="Email"
+                                required
+                            />
+                            <label for="password"></label>
+                            <textarea
+                                name="message"
+                                id="message"
+                                cols="33"
+                                rows="5"
+                            ></textarea>
+                        </fieldset>
+                        <button>Senden</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_icons">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <p class="footer_copy">&copy; 2022 Dr. med. vet. Gerlitzki</p>
+            <div class="footer_links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="#">Cookie-Einstellungen anpassen</a>
+            </div>
+        </footer>
+    </body>
 </html>

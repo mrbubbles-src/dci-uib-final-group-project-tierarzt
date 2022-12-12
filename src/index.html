@@ -12,17 +12,19 @@
             referrerpolicy="no-referrer"
         />
         <!-- FONTAWESOME END -->
-        <link rel="stylesheet" href="styles/main.scss" />
+        <link rel="stylesheet" href="styles/main.css" />
         <script src="./js/main.js" type="module" defer></script>
         <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
-            <!-- TITLE SCRIPT -->
-    <script>(function titleScroller(text) {
-        document.title = text;
-        console.log(text);
-        setTimeout(function () {
-            titleScroller(text.substr(1) + text.substr(0, 1));
-        }, 500);
-    }(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki "));</script>
+        <!-- TITLE SCRIPT -->
+        <script>
+            (function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
+        </script>
         <title>Tierarzt Praxis Hamburg Bergedorf Gerlitzki</title>
     </head>
     <body>
